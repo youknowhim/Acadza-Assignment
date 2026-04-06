@@ -4,7 +4,7 @@ import re
 import uvicorn
 import numpy as np
 from fastapi import FastAPI, HTTPException
-import recommender as rb 
+import recommender_buggy_updated as rb 
 
 app = FastAPI(title="Acadza AI - JEE Personalization API")
 
